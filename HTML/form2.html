@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form 2</title>
+</head>
+<body>
+<div>
+    <form action="/tacos">
+        <div>
+            <label for="first">First name</label>
+            <input type="text" name="first name" id="first" required>
+
+
+            <label for="last">Last name</label>
+            <input type="text" name="last name" id="last" required>
+        </div>
+        <br>
+        <p>Select a Race: </p>
+
+        <div>
+            <input type="radio" name="race" id="funrun">
+            <label for="funrun"> Fun Run 50K</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="half">
+            <label for="half"> Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="full">
+            <label for="full"> Full Marathon</label>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+
+        <div>
+            <label for="race"> Select Age Group :</label>
+            <select name="division" id="division">
+                <option value="kids">12-18</option>
+                <option value="YA">18-30</option>
+                <option value="Adult">30+</option>
+            </select>
+        </div>
+        <button>Register</button>
+    </form>
+</div>
+</body>
+</html>

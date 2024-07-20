@@ -1,0 +1,86 @@
+h1 {
+    color: black;
+    text-align: center;
+    /*text-decoration: ;*/
+    font-size: 40px;
+    font-family: Poppins, monospace;
+
+}
+
+section button.button:hover {
+    color: blue;
+}
+
+
+button:hover {
+    color: red;
+}
+
+#button2 {
+    background-color: yellow;
+}
+
+
+h1:hover {
+    text-decoration: magenta;
+
+}
+
+
+input[type="password"] {
+    color: #9c0808;
+}
+
+p {
+    color: black;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
+p::first-line {
+    color: #9c0808;
+}
+
+p::selection {
+    color: red;
+}
+
+.but button:hover {
+    background-color: red;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+
+h3 {
+    color: #000000;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+body {
+    background-color: lightyellow;
+}
+
+/*#Register {*/
+/*    background-color: #606c38;*/
+/*    color: white;*/
+/*}*/
+
+
+.tag {
+    background-color: #9c0808;
+    color: white;
+    font-size: small;
+}
